@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Realm</string>
+    <string name="bookmark">收藏</string>
+    <string name="setting">设置</string>
+    <string name="message">消息</string>
+    <string name="exit">退出</string>
+    <string name="drawer_open">开</string>
+    <string name="drawer_close">关</string>
+
+    <!-- Bottom nav -->
+    <string name="home">主页</string>
+    <string name="video">视频</string>
+    <string name="forum">圈子</string>
+    <string name="data">数据</string>
+
+</resources>

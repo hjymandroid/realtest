@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        applicationId "com.hongjie.doumin"
+        minSdkVersion 15
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    maven {
+        url 'https://github.com/uPhyca/stetho-realm/raw/master/maven-repo'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile "com.android.support:appcompat-v7:$project.SUPPORT_LIB_VERSION"
+    compile "com.android.support:recyclerview-v7:$project.SUPPORT_LIB_VERSION"
+    compile "com.android.support:support-v4:$project.SUPPORT_LIB_VERSION"
+    compile "com.android.support:cardview-v7:$project.SUPPORT_LIB_VERSION"
+    compile "com.android.support:design:$project.SUPPORT_LIB_VERSION"
+
+    compile "com.google.guava:guava:$project.GUAVA_VERSION"
+    // Dagger dependencies
+    apt "com.google.dagger:dagger-compiler:$project.DAGGER_VERSION"
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    compile "com.google.dagger:dagger:$project.DAGGER_VERSION"
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    compile 'io.realm:android-adapters:1.3.0'
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+    compile 'com.roughike:bottom-bar:1.3.9'
+    compile 'com.jakewharton:butterknife:8.1.0'
+    apt 'com.jakewharton:butterknife-compiler:8.1.0'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.6@aar'
+
+
+    debugCompile 'com.facebook.stetho:stetho:1.3.1'
+    debugCompile 'com.uphyca:stetho_realm:0.9.0'
+
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Drawer colors -->
+    <color name="drawer_list_bg">@color/gray_transparent</color>
+    <color name="drawer_list_bg_selected">#bdbfc2</color>
+    <!-- Default section separator color -->
+    <color name="separator_color">#eeeeee</color>
+
+    <!-- action bar -->
+    <color name="actionbar_title_bg">@color/gray</color>
+
+    <!-- action bar tabs -->
+    <color name="actionbar_tab_selected">@color/active_state_blue</color>
+    <color name="actionbar_tab_pressed">@color/active_state_blue_transparent_light</color>
+
+
+    <!-- text links pressed states, activie filters -->
+    <color name="active_state_blue">#00B9F1</color>
+    <color name="active_state_blue_transparent">#DF00B9F1</color>
+    <color name="active_state_blue_transparent_light">#5100B9F1</color>
+
+    <!-- cta button, title text, active main nav icon, normal action -->
+    <color name="primary_dark">#181b1c</color>
+    <color name="meta">#7c838a</color>
+    <!-- normal text, normal main nav -->
+    <color name="secondary_dark">#8E959C</color>
+    <!-- stream bg default button -->
+    <color name="gray">#ffe2e4e8</color>
+    <color name="gray_transparent">#F0e2e4e8</color>
+    <color name="disabled_white">#f2f4f5</color>
+    <color name="disabled_gray">#F08E959C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ffcc0000</color>
+    <color name="error_text_color">#b7002b</color>
+    <color name="disabled_white_non_transparent">#fff2f4f5</color>
+    <color name="active_filter">@color/active_state_blue</color>
+    <color name="link">@color/active_state_blue</color>
+    <color name="pressed_btn">@color/active_state_blue</color>
+    <color name="pressed_twitter_btn">#006991</color>
+    <color name="normal_twitter_btn">#00aced</color>
+    <color name="pressed_twitter_btn_text">#9c9c9c</color>
+    <color name="pressed_facebook_btn">#243560</color>
+    <color name="normal_facebook_btn">#36579d</color>
+    <color name="pressed_facebook_btn_text">#9c9c9c</color>
+    <color name="cta_btn">@color/primary_dark</color>
+    <color name="cta_btn_disabled">#aab0b6</color>
+    <color name="default_title">@color/primary_dark</color>
+    <color name="active_nav_icon">@color/primary_dark</color>
+    <color name="default_nav_icon">@color/primary_dark</color>
+    <color name="action_btn">@color/primary_dark</color>
+    <color name="default_btn">@color/gray</color>
+    <color name="default_text">@color/primary_dark</color>
+    <color name="drop_shadow">@color/black</color>
+    <color name="price_overlay_background">#F0adadad</color>
+    <color name="feed_header_subtitle_color">#7B8386</color>
+
+    <!-- default page bg color -->
+    <color name="card_bg">#FFFFFFFF</color>
+    <color name="page_bg">@color/gray</color>
+    <color name="page_bg_transparent">@color/gray_transparent</color>
+    <color name="canvas_bg">@color/white</color>
+    <color name="bubble_dark_background">#B2191919</color>
+
+    <!-- primary cta button text color -->
+    <color name="cta_btn_text_disabled">#e2e3e7</color>
+
+    <!-- editor toolbar -->
+    <color name="transparent_white">#00FFFFFF</color>
+    <color name="transparent_creator_open_edit_bg_color">#50000000</color>
+    <color name="seventy_percent_transparent_white">#B3FFFFFF</color>
+
+    <!-- toast message dialog -->
+    <color name="toast_message_dialog_background">#D6000000</color>
+
+    <color name="underlay_bg">#B3000000</color>
+
+    <!-- tabs -->
+    <color name="tab_background">#eaeaea</color>
+    <color name="tab_divider">#d2d2d2</color>
+    <color name="tab_bottom_divider">#bababa</color>
+
+    <!-- share endpoint -->
+    <color name="facebook_color">#3c549f</color>
+    <color name="twitter_color">#28aae1</color>
+    <color name="pinterest_color">#c91f27</color>
+    <color name="instagram_color">#211f20</color>
+    <color name="tumblr_color">#44536b</color>
+    <color name="blogger_color">#f79238</color>
+    <color name="wordpress_color">#21759b</color>
+    <color name="email_color">#000000</color>
+    <color name="mesenger_color">#00c5ff</color>
+    <color name="hangout_color">#59b024</color>
+    <color name="whatsapp_color">#12af0a</color>
+    <color name="share_endpoint_text_color">#3d464d</color>
+
+    <!-- inspiration -->
+    <color name="gray_line_color">#bEc5cC</color>
+
+    <!-- Blur bg color-->
+    <color name="blur_bg_color">#A0000000</color>
+
+    <!-- Pink color for debugging -->
+    <color name="pink_color">#FF50F0</color>
+
+    <color name="tooltip_bg_color">@color/active_state_blue</color>
+
+
+    <!-- onboarding -->
+    <color name="sixty_percent_transparent_white">#9CFFFFFF</color>
+
+    <!-- Crop image lib border color-->
+    <color name="crop_lib_highlight">#f3f3f3</color>
+
+    <!-- Gray background on progress bar for profile page. -->
+    <color name="progress_bar_background">#b2b2b2</color>
+
+    <!-- material design -->
+    <color name="color_primary">#FFFFFF</color>
+    <color name="color_primary_dark">#000000</color>
+    <color name="drawer_cover_image_overlay">#99000000</color>
+
+    <!-- floating action button -->
+    <color name="ninety_percent_transparent_white">#E6FFFFFF</color>
+    <color name="eightyfive_percent_transparent_white">#D9FFFFFF</color>
+    <color name="fab_screen_view_bg_color">#73000000</color>
+    <color name="fab_plus_icon_color">#a0000000</color>
+
+    <color name="fab_cover_icon_normal_color">#34464d</color>
+    <color name="fab_cover_icon_pressed_color">#34464d</color>
+
+    <color name="fab_like_icon_normal_color">#de0000</color>
+    <color name="fab_like_icon_pressed_color">#b80000</color>
+    <color name="publish_error">#33FF0000</color>
+
+    <!-- sales and deals -->
+    <color name="price_text_color_sale_color">#fd4f57</color>
+    <color name="deal_text_transparent_white">#E1FFFFFF</color>
+    <color name="deal_banner_background">#383b3f</color>
+    <color name="saved_deal_img_border">#cccccc</color>
+
+
+</resources>

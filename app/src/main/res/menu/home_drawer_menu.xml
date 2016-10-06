@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/message"
+            android:title="@string/message"
+            android:icon="@drawable/ic_email_black_24dp"/>
+        <item
+            android:id="@+id/settings"
+            android:title="@string/setting"
+            android:icon="@drawable/ic_settings_applications_black_24dp"/>
+        <item
+            android:id="@+id/bookmark"
+            android:title="@string/bookmark"
+            android:icon="@drawable/ic_favorite_black_24dp"/>
+        <item
+            android:id="@+id/logout"
+            android:title="@string/exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+    </group>
+</menu>
